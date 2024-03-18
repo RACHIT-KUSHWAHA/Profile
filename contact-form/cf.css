@@ -1,0 +1,61 @@
+.f-cont {
+  width: 250px;
+  height: 285px;
+  position: absolute;
+  transition: left .5s;
+  background: #0005;
+  padding: 10px;
+  left: -500px;
+  border-radius: 10px;
+  bottom: 40px;
+  backdrop-filter: blur(12.5);
+}
+
+.title {
+  font-size: 2rem;
+  color: white;
+}
+
+.pmsg {
+  font-size: 1rem;
+  color: white;
+}
+
+.f-cont form input {
+  border: none;
+  background: rgba(225, 225, 225, 0.7);
+  backdrop-filter: blur(15px);
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+}
+
+.f-cont form input::placeholder {
+  color: white;
+}
+
+.f-cont form textarea {
+  border: none;
+  background: rgba(225, 225, 225, 0.7);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  width: 200px;
+  height: 60px;
+}
+
+.f-cont form textarea::placeholder {
+  color: white;
+}
+
+.f-cont form button {
+  border: none;
+  outline: none;
+  margin-top: 0;
+  padding: 10px 15px;
+  background: slateblue;
+  display: block;
+  border-radius: 10px;
+}
